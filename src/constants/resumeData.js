@@ -10,7 +10,7 @@ export const personalInfo = {
   location: 'Peoria, AZ',
   email: 'Saikrishnas2921@gmail.com',
   phone: '+1 (562) 579-6093',
-  linkedin: 'https://www.linkedin.com/in/saikrishna-adepu',
+  linkedin: 'https://www.linkedin.com/in/sai-krishna-t62164160/',
   github: 'https://github.com/saikrishna-adepu',
   yearsExperience: '6+',
   projectsDelivered: '15+',
@@ -41,7 +41,7 @@ export const skills = [
   {
     category: 'Backend Frameworks',
     icon: HiServer,
-    items: ['Spring Boot', 'Spring Batch', 'Spring Data JPA', 'Spring JWT', 'Spring Batch', 'Microservices', 'Spring Security'],
+    items: ['Spring Boot', 'Spring Batch', 'Spring Data JPA', 'Spring JWT', 'Microservices', 'Spring Security'],
   },
   {
     category: 'Databases',
