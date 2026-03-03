@@ -20,7 +20,7 @@ export const personalInfo = {
 export const summary = `Full Stack Software Engineer with 6 years of experience building scalable, maintainable, and high-performing applications across the financial, energy, and insurance domains. Agile Certified SAFe 5 Practitioner and AWS Certified Developer with expertise in Java, Spring, React, Angular and cloud-native architectures, delivering robust solutions that improve performance, reliability, and user experience.`;
 
 export const typedStrings = [
-  'Full Stack Engineer',
+  'Full Stack Software Engineer',
   'React & Angular Developer',
   'Spring Boot Expert',
   'Cloud-Native Architect',
