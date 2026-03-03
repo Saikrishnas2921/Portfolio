@@ -1,4 +1,4 @@
-import { FaReact } from 'react-icons/fa';
+import { FaReact, FaCreditCard, FaBolt, FaShieldAlt, FaLaptopCode } from 'react-icons/fa';
 import { HiCode, HiServer, HiDatabase, HiCloud, HiCog } from 'react-icons/hi';
 
 export const personalInfo = {
@@ -23,6 +23,7 @@ export const typedStrings = [
   'Full Stack Engineer',
   'React & Angular Developer',
   'Spring Boot Expert',
+  'Spring Batch Developer',
   'Cloud-Native Architect',
   'AWS Certified Developer',
 ];
@@ -66,6 +67,8 @@ export const experience = [
     role: 'Senior Software Engineer',
     location: 'Phoenix, AZ',
     period: 'Mar 2025 – Present',
+    icon: FaCreditCard,
+    iconColor: '#006FCF',
     points: [
       'Developed the Account Pricing Review (APR) system for merchants, enabling automated pricing updates based on transaction volume and country selection.',
       'Built an Angular-based UI within the One App framework to allow business users to configure country, business type, and currency for APR actions.',
@@ -81,6 +84,8 @@ export const experience = [
     role: 'Senior Software Engineer',
     location: 'San Diego, CA',
     period: 'Oct 2023 – Feb 2025',
+    icon: FaBolt,
+    iconColor: '#F59E0B',
     points: [
       'Designed and developed the Public Safety Power Shutoff (PSPS) Portal to support wildfire mitigation and air operations decision-making.',
       'Developed a React-based front-end to manage power shutoff requests and approvals for helicopters and drones during wildfire emergencies.',
@@ -95,6 +100,8 @@ export const experience = [
     role: 'Software Engineer',
     location: 'Hyderabad, IN',
     period: 'Jun 2019 – Dec 2021',
+    icon: FaShieldAlt,
+    iconColor: '#EF4444',
     points: [
       'Designed and implemented an Insurance Policy Management Portal enabling policy creation, re-initiation, and cancellation workflows.',
       'Developed RESTful APIs using Spring Boot with a Microservices architecture managed through an API Gateway.',
@@ -110,6 +117,8 @@ export const experience = [
     role: 'Software Engineer Intern',
     location: 'Hyderabad, IN',
     period: 'Jun 2018 – May 2019',
+    icon: FaLaptopCode,
+    iconColor: '#8B5CF6',
     points: [
       'Built responsive SPA user interfaces using HTML5, CSS3, and JavaScript with React components.',
       'Developed Spring components for logging, exception handling, and transaction management.',

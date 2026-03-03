@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { HiArrowDown, HiMail } from 'react-icons/hi';
 import { personalInfo, typedStrings } from '../constants/resumeData';
-import profilePhoto from '../assets/krishna.jpeg';
+import profilePhoto from '../assets/krishna.PNG';
 
 function useTypewriter(strings, typingSpeed = 80, deletingSpeed = 50, pause = 2000) {
   const [display, setDisplay] = useState('');

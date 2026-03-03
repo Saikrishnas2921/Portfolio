@@ -46,9 +46,28 @@ export default function Experience() {
               <div className="timeline-dot" />
               <div className="timeline-card">
                 <div className="timeline-header">
-                  <div>
-                    <h3 className="timeline-company">{exp.company}</h3>
-                    <p className="timeline-role">{exp.role}</p>
+                  <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
+                    {exp.icon && (
+                      <div className="company-icon" style={{
+                        width: '48px',
+                        height: '48px',
+                        borderRadius: '12px',
+                        background: `${exp.iconColor}15`,
+                        border: `1px solid ${exp.iconColor}30`,
+                        display: 'flex',
+                        alignItems: 'center',
+                        justifyContent: 'center',
+                        fontSize: '1.4rem',
+                        color: exp.iconColor,
+                        flexShrink: 0,
+                      }}>
+                        <exp.icon />
+                      </div>
+                    )}
+                    <div>
+                      <h3 className="timeline-company">{exp.company}</h3>
+                      <p className="timeline-role">{exp.role}</p>
+                    </div>
                   </div>
                 </div>
                 <div className="timeline-meta">
