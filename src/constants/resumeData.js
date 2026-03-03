@@ -23,7 +23,6 @@ export const typedStrings = [
   'Full Stack Engineer',
   'React & Angular Developer',
   'Spring Boot Expert',
-  'Spring Batch Developer',
   'Cloud-Native Architect',
   'AWS Certified Developer',
 ];
@@ -42,7 +41,7 @@ export const skills = [
   {
     category: 'Backend Frameworks',
     icon: HiServer,
-    items: ['Spring Boot', 'Spring Data JPA', 'Spring JWT', 'Spring Batch', 'Microservices', 'Spring Security'],
+    items: ['Spring Boot', 'Spring Batch', 'Spring Data JPA', 'Spring JWT', 'Spring Batch', 'Microservices', 'Spring Security'],
   },
   {
     category: 'Databases',
